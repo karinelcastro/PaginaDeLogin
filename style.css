@@ -43,7 +43,21 @@ label{
 .dados{
     padding: 10px 15px;
     border-radius: 20px;
+    width: 100%;
     border: none;
+    padding-left: 30px;
+}
+
+.input-container{
+    position: relative;
+}
+
+.user, .password{
+    color: #767676;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 0.8em;
 }
 
 button, .submit{
